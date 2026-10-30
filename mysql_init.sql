@@ -1,0 +1,3 @@
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'fitforge123';
+FLUSH PRIVILEGES;
+CREATE DATABASE IF NOT EXISTS fitforge_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
